@@ -8,6 +8,7 @@ from src.models.Vouches import Vouches
 from src.modules.Commands import Commands
 from src.intents import intents
 
+const keep_alive = require('./keep_alive.py')
 
 TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = os.getenv('DISCORD_GUILD')
